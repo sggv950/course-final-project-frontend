@@ -1,0 +1,104 @@
+.home {
+  header {
+    position: relative;
+    margin-top: 65px;
+    margin-bottom: 50px;
+    height: 370px;
+    @media (min-width: 500px) {
+      height: 470px;
+    }
+    @media (min-width: 768px) {
+      height: 500px;
+    }
+    @media (min-width: 1400px) {
+      height: 700px;
+    }
+    
+    .welcome-text {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(180deg, #111 0%, #333 50% ,#999 100%);
+      opacity: 0.7;
+      z-index: 2;
+      padding-top: 50px;
+      @media (min-width: 768px) {
+        padding-top: 150px;
+      }
+      .welcome-headline{
+        flex-direction: column;
+        justify-content: center;
+        h2 {
+          margin: 20px 0;
+          text-align: center;
+          font-size: 2.5rem;
+          @media (min-width: 768px) {
+            font-size: 4rem;
+          }
+        }
+        h4 {
+          font-size: 1.5rem;
+          @media (min-width: 768px) {
+            font-size: 1.5rem;
+            display: inline;
+          }
+        }
+      }
+
+      p{
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+        font-size: 1.5rem;
+      }
+    }
+  }
+  
+  a {
+    color: rgb(51, 51, 255);
+    cursor: pointer;
+  }
+
+  .carousels-container {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1300px;
+    @media (min-width: 768px) {
+      border: $border;
+      padding: 0 10px 30px;
+      // margin: 0 40px;
+    }
+    h2 {
+      font-size: 1.3em;
+    }
+    .carousel-section {
+      padding: 20px 15px;
+      border-bottom: $border;
+      a{
+        color: lighten($brand-heading-color,20%);
+        font-size: 1.1rem;
+      }
+    }
+    .carousel {
+
+      .slide {
+        display: flex;
+        justify-content: center;
+      }
+      .VueCarousel-pagination {
+        display: none;
+      }
+      .VueCarousel-navigation-button{
+        font-size: 30px;
+      }
+      .VueCarousel-navigation--disabled[data-v-453ad8cd]{
+        visibility: hidden;
+      }
+      .VueCarousel-navigation-next[data-v-453ad8cd] {
+        transform: none;
+      }
+    }
+  }
+}

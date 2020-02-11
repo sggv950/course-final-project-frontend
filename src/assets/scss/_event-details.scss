@@ -1,0 +1,90 @@
+.cards-wrapper {
+  margin-top: 30px;
+  background-color: lighten($brand-grey-light, 10%);
+  flex-direction: column;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 55px;
+    padding: 30px;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.card-container {
+  background-color: $brand-white;
+  padding: 30px 10px;
+  margin-bottom: 30px;
+  @media screen and (min-width: 768px) {
+    padding: 30px;
+    width: 48.6%;
+    margin-bottom: 0;
+  }
+  border: 1px solid darken($brand-grey-light, 5%);
+  border-radius: 6px;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card-organizer-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-organizer-image-container {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.card-item-container {
+  border-top: 1px solid $brand-grey-light;
+  margin-top: 20px;
+}
+
+.instruments-container {
+  width: 100%;
+  display: flex;
+}
+
+.instrument-item-container {
+  padding: 15px;
+  border: 1px solid $brand-grey-light;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  &:not(:first-child) {
+    margin-left: 15px;
+  }
+}
+
+.card-description {
+  margin-bottom: 30px;
+}
+
+.feed-container{
+    width: 100%;
+    height: 50%;      
+}
+
+.event-details{
+    list-style: none;
+    margin-bottom: 30px;
+    span {
+        margin-right: 10px;
+    }
+}
+
+.event-detail-list-item {
+  padding: 5px 0;
+  border-top: 1px solid $brand-grey-light;
+  &:last-child {
+    border-bottom: 1px solid $brand-grey-light;
+  }
+}
+
+.event-photo,
+.map {
+  width: 100%;
+}

@@ -1,0 +1,27 @@
+.login-page{
+    width: 70vw;
+    margin: 90px auto 0;
+    padding-bottom: 100px; 
+    min-height: 63vh;
+    form {
+        height: fit-content;
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        a {
+            font-size: 0.8rem;
+            color: gray;
+            cursor: pointer;
+        }
+        input,button {
+            margin: 0 0 10px;
+        }
+    }
+}
+
+@media (min-width: 600px) {
+    .login-page {
+        max-width: 350px;
+    }
+}

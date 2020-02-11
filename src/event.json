@@ -1,0 +1,34 @@
+{
+  "adminId": "5c011222f1b9e56f9012cb29",
+  "location": {
+    "address": "mahne yehuda 182",
+    "city": "jerusalem"
+  },
+  "time": { "day": "30/11", "hour": "21:30" },
+  "title": "Playing Little Jonathan",
+  "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio in maiores, laborum placeat ipsam ea. In cupiditate sed necessitatibus libero cumque inventore distinctio quidem. Possimus delectus ullam numquam officiis ea!",
+  "genre": "jazz",
+  "level": "pro",
+  "pic": "",
+  "instruments": [
+    {
+      "instrument": "trumpet",
+      "amount": 1,
+      "playerIds": ["5c011145f1b9e56f9012cb25"]
+    },
+    {
+      "instrument": "sax",
+      "amount": 2,
+      "playerIds": ["5c0111aaf1b9e56f9012cb26"]
+    },
+    {
+      "instrument": "guitar",
+      "amount": 2,
+      "playerIds": ["5c0111c6f1b9e56f9012cb27"]
+    }
+  ],
+  "allowedMembersCount": 8,
+  "joinedMembersCount": 4,
+  "status": "",
+  "cost": 8
+}
